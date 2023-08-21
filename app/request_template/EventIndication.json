@@ -1,0 +1,16 @@
+{
+  "URL": "https://cmp-lb.dtacnetwork.dev:443/EventIndication/",
+  "METHOD": "POST",
+  "RETRY": 3,
+  "OUTPUT": "",
+  "BODY": {
+    "EventIndication": {
+      "userIdentity": "{{MSISDN}}",
+      "userIdentityType": {{userIdentityType}},
+      "EventID": {{eventId}},
+      "OrigPlatformID": "{{OrigPlatformID}}",
+      "OrigPlatformNode": "{{OrigPlatformNode}}",
+      "Parameter": "{{PARAM}}"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "URL": "https://cmp-lb.dtacnetwork.dev:443/cmp/trigger_cmp_pr/",
+  "METHOD": "POST",
+  "RETRY": 3,
+  "OUTPUT": "",
+  "BODY": {
+    "prepaid": 1,
+    "timestamp": {{currentTime}},
+    "msisdn": {{MSISDN}},
+    "main_expiry_date": "{{main_expiry_date}}",
+    "main_balance": "{{main_balance}}",
+    "bonus_balance": "",
+    "main_validity_days": {{main_validity_days}},
+    "shortcode": "{{shortcode}}",
+    "hlr": "{{hlr}}",
+    "imsi": {{imsi}},
+    "bouns_expiry_date": "",
+    "sos": "",
+    "extra_param_list": {}
+  }
+}
+
+

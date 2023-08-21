@@ -1,0 +1,19 @@
+{
+  "URL": "https://cmp-lb.dtacnetwork.dev:443/link/data/input/CCBData/",
+  "METHOD": "POST",
+  "RETRY": 3,
+  "OUTPUT": "",
+  "BODY": {
+    "msisdn": "%MSISDN%",
+    "customerNumber": "{{customerNumber}}",
+    "accountType": "%accountType%",
+    "companyCode": "{{companyCode}}",
+    "recordTimestamp": "{{recordTimestamp}}",
+    "agentCode": "{{agentCode}}",
+    "recordType": "%recordType%",
+    "transactionId": "{{transactionId}}",
+    "messageId": "{{messageId}}"
+  }
+}
+
+

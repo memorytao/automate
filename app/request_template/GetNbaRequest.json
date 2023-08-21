@@ -1,0 +1,16 @@
+{
+  "URL": "https://cmp-lb.dtacnetwork.dev:446/GetNBAStatesGetNBAStates",
+  "METHOD": "GET",
+  "RETRY": 3,
+  "OUTPUT": "nba",
+  "BODY": {
+    "GetNBAStatesRequest": {
+      "TransactionId": "{{transactionId}}",
+      "ChannelId": "{{channelId}}",
+      "MSISDN": {{MSISDN}},
+      "Shelves": {{param_body}}
+    }
+  }
+}
+
+

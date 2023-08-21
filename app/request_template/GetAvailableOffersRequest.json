@@ -1,0 +1,56 @@
+{
+  "URL": "https://cmp-lb.dtacnetwork.dev:446/GetAvailableOffersRequest",
+  "METHOD": "GET",
+  "RETRY": 3,
+  "OUTPUT": "inbound",
+  "BODY": {
+  "GetAvailableOffersRequest": {
+    "channelId": "{{channelId}}",
+    "transactionId": "{{transactionId}}",
+    "origPlatform": "{{origPlatform}}",
+    "requestContext": {
+      "contextAttribute": "{{CONTEXT}}"
+    },
+    "poAttribute": [
+      "Content ID",
+      "Score"
+    ],
+    "requestedStatParameters": {
+      "defId": [
+        85819,
+        85799,
+        85659,
+        60599,
+        60599
+      ]
+    },
+    "sortingParameters": {
+      "parameter": {{param_body}},
+      "order": "Desc"
+    },
+    "userIdentity": "{{MSISDN}}",
+    "userIdentityType": {{userIdentityType}},
+    "filteringParameters": {
+      "source": [
+        {
+          "type": "cr",
+          "recoOffersStrategies": {
+            "category": [
+              "Recommend:3",
+              "Recommend_Voice:3",
+              "SpecialOffer:2",
+              "Newbie_Topping:2",
+              "RecentBuy:1",
+              "ValuePack:1",
+              "MostBuy:1",
+              "CrossSell:1",
+              "Recommend_P2P:3"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+}
+

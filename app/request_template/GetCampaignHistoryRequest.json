@@ -1,0 +1,12 @@
+{
+  "URL": "https://cmp-lb.dtacnetwork.dev:444/GetCampaignHistoryRequest",
+  "METHOD": "GET",
+  "RETRY": 3,
+  "OUTPUT": "outbound",
+  "BODY": {
+    "GetCampaignHistoryRequest": {
+      "UserIdentity": "{{MSISDN}}",
+      "uiType": 0
+    }
+  }
+}
