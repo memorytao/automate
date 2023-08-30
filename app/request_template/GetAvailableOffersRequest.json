@@ -17,11 +17,7 @@
     ],
     "requestedStatParameters": {
       "defId": [
-        85819,
-        85799,
-        85659,
-        60599,
-        60599
+        33640
       ]
     },
     "sortingParameters": {
@@ -35,17 +31,7 @@
         {
           "type": "cr",
           "recoOffersStrategies": {
-            "category": [
-              "Recommend:3",
-              "Recommend_Voice:3",
-              "SpecialOffer:2",
-              "Newbie_Topping:2",
-              "RecentBuy:1",
-              "ValuePack:1",
-              "MostBuy:1",
-              "CrossSell:1",
-              "Recommend_P2P:3"
-            ]
+            "category": {{param_category}}
           }
         }
       ]
