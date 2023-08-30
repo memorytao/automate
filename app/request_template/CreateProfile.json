@@ -4,13 +4,13 @@
   "RETRY": 3,
   "OUTPUT": "",
   "BODY": {
-    "msisdn": "%MSISDN%",
+    "msisdn": "{{MSISDN}}",
     "customerNumber": "{{customerNumber}}",
-    "accountType": "%accountType%",
+    "accountType": "{{accountType}}",
     "companyCode": "{{companyCode}}",
     "recordTimestamp": "{{recordTimestamp}}",
     "agentCode": "{{agentCode}}",
-    "recordType": "%recordType%",
+    "recordType": "{{recordType}}",
     "transactionId": "{{transactionId}}",
     "messageId": "{{messageId}}"
   }
